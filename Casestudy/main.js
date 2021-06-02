@@ -40,7 +40,6 @@ function khoiTao() {
         }
         str += "</tr>";
     }
-    str += "</table>";
     table.innerHTML = str;
     document.getElementById("batdau").style.display = "none"
     document.getElementById("ketqua").style.display = "none"
